@@ -1,0 +1,331 @@
+/*This is my 218 CONTACT PAGE using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* This is the beginning of my CONTACT PAGE CSS */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.one {
+    background-size:cover; 
+    height: calc( 100% + 200px );
+    overflow: visible;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    }
+
+
+#main {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position:fixed;
+  top: 0;
+  left: 0;
+}
+
+
+
+.logo {
+    text-align: center;
+    padding-top: 6%;
+    
+    
+}
+#logo {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.center {
+    max-width: 700px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 4%;
+    padding-right:4%;
+    margin: 50px auto;
+    background: rgba(168, 151, 206, .7); /*this uses opacity of 75% for the 			background color*/
+    text-align: center;
+}
+
+
+h1 {
+		font-family: 'Montserrat', sans-serif;		/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */ 
+        font-weight: bold;
+		font-size: 2.5em;
+        line-height: 1.;
+    margin: 0px auto 10px auto;
+    color: #fff;
+}
+
+h2 {
+	  font-family: 'Montserrat', sans-serif;/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+		font-size: 1.5em;
+    line-height: 1;
+    color: #fff;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+p {
+		font-family: 'Montserrat', sans-serif;/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */		;
+		font-size: 1.2em;
+    line-height: 1.6;
+    color: #fff;
+}
+
+nav{
+    font-family:'Raleway';
+    font-size:1.2em;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto; /*This centers the nav element*/
+    text-align: center;
+    margin-top: 2em; /*This adds a bit of space above the nav element*/
+    padding: .75em
+    }
+
+nav li{
+    display:inline;
+    }
+
+nav a{
+    display:inline;
+    margin: .75em
+    }
+
+a{
+    color:#444;
+    text-decoration:none;
+    font-weight:bold;
+    -o-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+      -moz-transition: all .5s ease;
+      -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    }
+
+a:hover{
+    color:black;
+    
+    }
+
+
+
+
+.two {
+    position: relative;
+}
+.two_container{
+    background-color: #615281;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column; 
+    flex-wrap: nowrap;
+    height: 100%;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+}
+.quote{
+    
+    font-family: 'Playfair Display', serif;/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */		;
+		font-size: 1.2em;
+    line-height: 1.6;
+    color: #fff;
+    text-align: center; 
+    margin: 50px auto;
+    
+    padding: 4%;
+
+    
+}
+.line1{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.5em;
+    line-height: .75em;
+    
+}
+
+.line2{
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bold;
+    font-style: italic; 
+    font-size: 3em;
+    line-height: .85em;
+}
+
+.line3{
+    font-family: 'Playfair Display SC', serif;
+    line-height: 1.3em;
+    font-size: 1.75em
+}
+
+.line4{
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2.5em;
+    line-height: .65em;
+}
+
+.line5{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.5em;
+    line-height: 1.65em;
+}
+
+.line6{
+    font-family: 'Playfair Display', serif;
+    font-style:italic;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+
+
+/* MEDIA QUERIES BEGIN HERE MAX-WIDTH: If device width is LESS THAN or equal to 768px, then the following CSS will override the elements above */
+
+@media (max-width: 786px) {
+    .center {
+        width: 75%;
+        max-width: 100%;
+        bottom: 50px;
+        left: 16px;
+        margin: 50px auto;
+        align-content: center;
+        align-items: center;
+        }
+    .one {
+        width: 100%;
+        max-width:100%;
+        }
+    .two{
+        align-content: center;
+        align-items: center;
+    }
+    .two_container{
+        align-content: center;
+        align-items: center;
+        min-width: inherit;
+    }
+    #logo {
+        display: inline;
+        align-content: center;
+        }
+    img {
+        max-width: 100%;
+        }
+    
+    h1 {
+        font-size: 2.5em;
+        line-height: 1.6em;
+        }
+    h2 {
+        font-size: 2em;
+        line-height: 1.4em;
+        }
+    p{
+        font-size: 1.25em;
+        line-height: 1.6em;
+    }
+    
+    nav li{
+        display:inline; /*the nav elements will stack on top of one another which allows for a better user experience */
+    }
+    nav a{
+        display:inline-block;
+        padding: 13px;
+    }
+    
+    .quote{
+        width: 100%;
+        max-width: 80%;
+        bottom: 50px;
+        left: 16px;
+        right:16px;
+        margin: 50px auto;
+        align-content: center;
+        align-items: center;
+        background-size: contain;
+    }
+    .line1{
+        font-size: 1em;
+    }
+    .line2{
+        font-size: 2.5em;
+    }
+    .line3{
+        font-size: 1.3em;
+    }
+    .line4{
+        font-size: 2em;
+    }
+    .line5{
+        font-size: 1.3em;
+    }
+    .line6{
+        font-size: .75em;
+    }
+}
+    
+
