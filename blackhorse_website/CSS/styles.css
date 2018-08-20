@@ -1,0 +1,471 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*BEGINNING OF BLACK HORSE PAGE*/
+
+body{
+	margin-top: 0px;
+ 	margin-right: 0px;
+	margin-bottom: 0px;
+ 	margin-left: 0px;
+	max-width: 100%;
+	height: 100%;
+}
+
+#wrapper{
+	/*background-image: url(../images/mike-kenneally-46284.jpg);
+	max-width: 100%;
+	background-attachment: fixed;*/
+	min-width: 960px;
+}
+#home{
+	background-image: url(../images/homeBG.jpg);
+	max-width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	height:800px;
+	/*font-family: "calluna-sans",sans-serif;*/
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+.mainLogo{
+	/**border: solid;**/
+	padding-left: 5%;
+	padding-top: 3%;
+}
+
+h1{
+	
+	letter-spacing: 10px;
+	font-size: 35px;
+	padding-bottom: 1.5em;
+}
+
+#welcome p{
+	font-size: 18px;
+	line-height: 30px;
+	font-weight:300;
+	
+}
+
+
+.homenav{
+	
+	margin-top: 11em;
+	float: left;
+}
+li{
+	letter-spacing: 6px;
+	font-size: 22px;
+	line-height: 3em;
+	margin-left: 1.5em;
+	
+	
+}
+
+
+#welcome{
+	float:right;
+	background-color: rgba(34,34,34,0.80);
+	width: 62%;
+	height: 33%;
+	padding-top: 3em;
+	text-align:right;
+	padding-right: 2em;
+	margin-top: 8em;
+	
+}
+
+.fa{
+	padding-right: 10%;
+}
+
+.homenav a{
+	-o-transition: all .5s ease;
+		-m-transition: all .5s ease;
+		-moz-transition: all .5s ease;
+		-webkit-transition: all .5s ease;
+	transition: all .5s ease;
+	text-decoration: none;
+	color: #FFFFFF;
+	
+	
+}
+
+.homenav a:hover{
+	color: #7A7A7A;
+}
+
+
+
+/*About page*/
+
+#about{
+	max-width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 50px;
+	height: 900px;
+}
+
+.cover{
+	height: 400px;
+	background-image:url(../images/blackhorse_foothill.jpg);
+	background-repeat: no-repeat;
+	max-width: 100%;
+	background-size: cover;
+	background-position: 0px -100px;
+}
+
+.coverimg{
+	opacity: 0.75;
+	padding-top:1em;
+	padding-left:1em;
+}
+
+.cover .coverimg{
+}
+
+#about h1{
+	color: white;
+	padding-top: 325px;
+	font-size: 60px;
+	width: 20%;
+	float: right;
+	padding-right:0.5em;
+}
+
+.aboutcontent{
+	width: 100%;
+}
+
+.aboutinfo{
+	/*border:solid;*/
+	width: 40%;
+	float: right;
+	margin-right: 0.5em;
+	padding-left: 2.5em;
+	margin-left: 10em;
+
+}
+
+nav.interior{
+	/*border: solid;*/
+	color: black;
+	width: 50%;
+	float: left;
+	margin-top: 4em;
+	background-color: rgba(34,34,34,0.80);
+	padding: 1em;
+}
+
+
+.interior {
+	width:25%;
+	text-align: right;
+	padding-right: 1em; 
+	
+}
+
+h2 {
+	letter-spacing: 6px;
+	font-size: 17px;
+	font-weight: 600;
+	padding-bottom:.5em;
+}
+
+.aboutinfo p{
+	line-height: 30px;
+	font-weight: 300;
+	padding-bottom: 2em;
+}
+
+.interior li{
+	line-height: 40px;
+}
+
+.interior a{
+	-o-transition: all .5s ease;
+		-m-transition: all .5s ease;
+		-moz-transition: all .5s ease;
+		-webkit-transition: all .5s ease;
+	transition: all .5s ease;
+	text-decoration: none;
+	color: #868686; /*7A7A7A*/
+		
+}
+
+.interior a:hover{
+	color: #FFFFFF;
+	
+}
+
+.interior li.activelink{
+	font-size: 30px;
+	color: black;
+	font-weight: 600;
+	/*border: solid;*/
+}
+
+nav.interiorsocial{
+	width:10%;
+	/*display: flex;
+	flex-direction:column;
+	justify-content: flex-end;*/
+}
+
+
+
+#about .interiorsocial li{
+	margin-top: 425px;
+}
+
+.interiorsocial a{
+	-o-transition: all .5s ease;
+		-m-transition: all .5s ease;
+		-moz-transition: all .5s ease;
+		-webkit-transition: all .5s ease;
+	transition: all .5s ease;
+	text-decoration: none;
+	color: #7A7A7A;
+}
+
+.interiorsocial a:hover{
+	color: #000000;
+}
+
+/*Locations Page*/
+
+#locations{
+	max-width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 50px;
+
+}
+
+.locationcover{
+	background-image: url(../images/mike-kenneally-46284.jpg); /*source: unsplash.com Mike Kenneally*/
+	width: 100%;
+	height:400px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.locationcover h1{
+	color: white;
+	text-align: right;
+	margin-top: 125px;
+	margin-right:0.5em;
+	font-size: 60px;
+	
+}
+.locationscontent{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	
+}
+
+.locationscontent .interior{
+	width: 25%;
+}
+
+.aboutcontent .interior{
+	width: 25%;
+}
+
+.contactcontent .interior{
+	width:25%;
+}
+
+
+.locationtext{
+	display:inline-block;
+	margin-left: 30%;
+	margin-top: 1.5em;
+	align-self:flex-end;
+	padding-right: 5em;
+	
+}
+
+.column1{
+	width:50%;
+	float: left;
+}
+
+.column2{
+	width:50%;
+	float: right;
+}
+h3{
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight:600;
+	padding-top: 2em;
+	padding-bottom: 0.5em;
+}
+
+.locationtext p{
+	font-size:16px;
+	font-weight:300;
+	letter-spacing: 1px;
+	line-height: 24px;
+}
+
+iframe{
+	float: right;
+	margin-top: 2em;
+	margin-left: 325px;
+}
+
+.locationmid{
+	width: 100%;
+	/*display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	align-items: flex-start;*/
+}
+
+#locations nav.interiorsocial{
+	float: right;
+	margin-top: -50px;
+}
+
+/*need to move social icons*/
+
+/*Contact Page*/
+
+#contact{
+	max-width: 100%;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.contactcover{
+	background-image: url(../images/mink-mingle-185523.jpg);/*source unsplash.com Mink Mingle*/
+	width: 100%;
+	height:400px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 0px -200px;
+}
+
+
+
+
+.contactcover h1{
+	color: white;
+	text-align: right;
+	margin-right:0.5em;
+	font-size: 60px;
+	padding-top:125px;
+	
+}
+
+.contactcontent .interior{
+	width:25%;
+
+}
+
+.phone{
+	width:40%;
+	height:200px;
+	margin-left:60%;
+	padding-top:2em;
+}
+
+.phone span{
+	font-size: 22px;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+.phone p{
+	font-size: 25px;
+	font-weight: 300;
+	line-height: 45px;
+	padding-top:1.5em;
+}
+.contactcontent h2{
+	font-size: 30px;
+	line-height: 50px;
+	margin:auto;
+	text-align: center;
+	font-weight:300;
+}
+/*.contactcontent .interiorsocial li a{
+	margin: auto;
+    width: 12%;
+	align-content: center;
+	border: solid;
+	
+	
+}*/
+
+#contact nav.interiorsocial{
+	margin: auto;
+}
+
+#contact .interiorsocial li{
+	display: inline;
+}
+
+.connect{
+	margin-top:6em;
+	margin-bottom:3em;
+}
